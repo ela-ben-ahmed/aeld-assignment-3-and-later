@@ -16,8 +16,8 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    char *writestr = argv[1];
-    char *writefile = argv[2];
+    char *writefile = argv[1];
+    char *writestr = argv[2];
 
    
     FILE *fp = fopen(writefile, "w");
